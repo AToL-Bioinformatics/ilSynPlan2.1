@@ -1,0 +1,4 @@
+sample,assembly_type,assembly_file
+ilSynPlan2.1,PRIMARY,${PWD}/results/genomeassembly/ilSynPlan2.1/ilSynPlan2.1.pacbio_hifi.purged/purging/asm.purged.fa.gz
+ilSynPlan2.1,HAPLO,${PWD}/results/genomeassembly/ilSynPlan2.1/ilSynPlan2.1.pacbio_hifi.purged/purging/asm.htigs.all.fa.gz
+ilSynPlan2.1,MITO,${PWD}/results/genomeassembly/ilSynPlan2.1/ilSynPlan2.1.pacbio_hifi.purged/mito/final_mitogenome.fasta

@@ -1,0 +1,29 @@
+{
+  "assembly_version": 1,
+  "dataset_id": "ilSynPlan2",
+  "scientific_name": "Synemon plana",
+  "taxon_id": 160830,
+  "busco_odb10_dataset_name": "lepidoptera",
+  "busco_odb12_dataset_name": "lepidoptera",
+  "ncbi_class": "Insecta",
+  "hic_motif": "GATC,GANTC,CTNAG,TTAA",
+  "mitochondrial_genetic_code_id": 5,
+  "mitohifi_reference_species": "Eogystia hippophaecolus",
+  "oatk_hmm_name": "insecta",
+  "augustus_dataset_name": "tiberius_model_cfg:insecta.yaml",
+  "genetic_code_id": 1,
+  "assembly_id": "cc730995-6e6a-4d3d-92a2-fe972dbfb407",
+  "read_files": [
+    {
+      "name": "bpa-tsi-pacbio-hifi-687199-m84118_260413_033430_s1",
+      "data_type": "PACBIO_SMRT",
+      "base_url": "https://downloads-qcif.bioplatforms.com/bpa/tsi_staging/pacbio-hifi/BPAOPS-2055/20260413_TSI_BRF_m84118_260413_033430_s1/",
+      "single_end": [
+        {
+          "url": "https://data.bioplatforms.com/dataset/bpa-tsi-pacbio-hifi-687199-m84118_260413_033430_s1/resource/c599979664858a5fe4faf68a7cfeda01/download/687199_TSI_BRF_m84118_260413_033430_s1.hifi_reads.bc2005.bam",
+          "md5sum": "c599979664858a5fe4faf68a7cfeda01"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+
+- id: ilSynPlan2.1.pacbio_hifi.purged
+  assembler: "hifiasm"
+  long_read_dataset: ilSynPlan2
+  long_read_platform: pacbio_hifi
+  purge: true
+  busco_lineage: lepidoptera_odb12
+  find_mito: true
+  find_plastid: false
+  mitohifi_mito_genetic_code: 5
+  mitohifi_reference_species: "Eogystia hippophaecolus"
+- id: ilSynPlan2.1.oatk
+  assembler: "oatk"
+  long_read_dataset: ilSynPlan2
+  long_read_platform: pacbio_hifi
+  busco_lineage: lepidoptera_odb12
+  oatk_mito_hmm: https://github.com/c-zhou/OatkDB/raw/main/v20230921/insecta_mito.fam
+- id: ilSynPlan2.1.mitohifi
+  assembler: "mitohifi"
+  long_read_dataset: ilSynPlan2
+  long_read_platform: pacbio_hifi
+  busco_lineage: lepidoptera_odb12
+  mitohifi_mito_genetic_code: 5
+  mitohifi_reference_species: "Eogystia hippophaecolus"

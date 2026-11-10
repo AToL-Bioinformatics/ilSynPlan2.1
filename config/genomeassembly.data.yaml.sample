@@ -1,0 +1,5 @@
+
+- id: ilSynPlan2
+  platform: pacbio_hifi
+  reads:
+    - ${PWD}/results/qc/reads/PACBIO_SMRT/bpa-tsi-pacbio-hifi-687199-m84118_260413_033430_s1.fastq.gz
